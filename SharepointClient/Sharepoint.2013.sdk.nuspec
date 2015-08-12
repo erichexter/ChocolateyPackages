@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>sharepoint.2013.sdk</id>
+        <version>15.4711.1001</version>
+        <authors>Microsoft</authors>
+        <owners>eric hexter</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The SharePoint Server 2013 Client Components SDK can be used to enable remote and local development with SharePoint Server 2013</description>
+        <releaseNotes />
+        <language>en-US</language>
+      <projectUrl>http://www.microsoft.com/en-US/download/details.aspx?id=35585</projectUrl>
+    </metadata>
+</package>
