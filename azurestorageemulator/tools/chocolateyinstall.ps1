@@ -15,7 +15,7 @@ $url64      = '' # 64bit URL here or remove - if installer is both, use $url
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
-  fileType      = 'MicrosoftAzureStorageEmulator.msi' #only one of these: exe, msi, msu
+  fileType      = 'msi' #only one of these: exe, msi, msu
   url           = $url
   url64bit      = $url64
   #file         = $fileLocation
@@ -39,7 +39,7 @@ $packageArgs = @{
   #validExitCodes= @(0) #please insert other valid exit codes here
 
   # optional, highly recommended
-  softwareName  = 'azurestorageemulator*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+  softwareName  = 'microsoft azure storage emulator*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
   checksum      = ''
   checksumType  = 'md5' #default is md5, can also be sha1
   checksum64    = ''
