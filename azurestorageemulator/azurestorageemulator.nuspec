@@ -22,10 +22,9 @@
     <licenseUrl></licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/azurestorageemulator.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="dotnet4.5" />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>
