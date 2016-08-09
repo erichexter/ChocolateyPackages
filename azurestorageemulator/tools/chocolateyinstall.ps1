@@ -46,7 +46,9 @@ $packageArgs = @{
   checksumType64= 'md5' #default is checksumType
 }
 
-Install-ChocolateyPackage @packageArgs
+if(! (test-path "${Env:ProgramFiles(x86)}\microsoft sdks\azure\storage emulator\AzureStorageEmulator.exe")){
+  Install-ChocolateyPackage @packageArgs
+}
 #Install-ChocolateyZipPackage @packageArgs
 # if you are making your own internal packages (organizations), you can embed the installer or 
 # put on internal file share and use the following instead (you'll need to add $file to the above)
