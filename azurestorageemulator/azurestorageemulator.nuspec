@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>azurestorageemulator</id>
     <title>azurestorageemulator (Install)</title>
-    <version>5.2</version>
+    <version>5.9</version>
     <authors>Microsoft</authors>
     <owners>erichexter</owners>
     <summary>The Microsoft Azure storage emulator provides a local environment that emulates the Azure Blob, Queue, and Table services for development purposes. </summary>
