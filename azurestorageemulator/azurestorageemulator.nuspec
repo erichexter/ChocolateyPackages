@@ -12,14 +12,17 @@
     </description>
     <projectUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</projectUrl>
     <packageSourceUrl>https://github.com/erichexter/ChocolateyPackages</packageSourceUrl>
+    <projectSourceUrl>https://github.com/erichexter/ChocolateyPackages</projectSourceUrl>
+    <docsUrl>https://github.com/erichexter/ChocolateyPackages/tree/master/azurestorageemulator/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/erichexter/ChocolateyPackages/issues</bugTrackerUrl>
     <tags>azure storage emulator sdk</tags>
     <licenseUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="dotnet4.5" />
-      <dependency id="sqlserverlocaldb" />
+      <dependency id="dotnet4.5" version="4.5.20120822"/>
+      <dependency id="sqlserverlocaldb" version="11.0.2318.0"/>
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Updated to latest version of AzureStorageEmulator</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
