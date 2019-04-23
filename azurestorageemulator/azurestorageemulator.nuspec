@@ -23,8 +23,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/azurestorageemulator.png</iconUrl>-->
     <dependencies>
-      <dependency id="dotnet4.5" />
-      <dependency id="sqlserverlocaldb" />
+      <dependency id="dotnet4.5" version="4.5.20120822"/>
+      <dependency id="sqlserverlocaldb" version="11.0.2318.0"/>
     </dependencies>
     <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
