@@ -2,7 +2,6 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>azurestorageemulator</id>
     <title>azurestorageemulator (Install)</title>
     <version>5.9</version>
@@ -13,21 +12,14 @@
     </description>
     <projectUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</projectUrl>
     <packageSourceUrl>https://github.com/erichexter/ChocolateyPackages</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>
-    <docsUrl></docsUrl>
-    <mailingListUrl></mailingListUrl>
-    <bugTrackerUrl></bugTrackerUrl>-->
     <tags>azure storage emulator sdk</tags>
-    <!--<copyright></copyright>-->
     <licenseUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/azurestorageemulator.png</iconUrl>-->
     <dependencies>
       <dependency id="dotnet4.5" />
       <dependency id="sqlserverlocaldb" />
     </dependencies>
     <releaseNotes></releaseNotes>
-    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
