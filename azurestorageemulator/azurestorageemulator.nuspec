@@ -13,10 +13,10 @@
     </description>
     <projectUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</projectUrl>
     <packageSourceUrl>https://github.com/erichexter/ChocolateyPackages</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>
-    <docsUrl></docsUrl>
-    <mailingListUrl></mailingListUrl>
-    <bugTrackerUrl></bugTrackerUrl>-->
+    <projectSourceUrl>https://github.com/erichexter/ChocolateyPackages</projectSourceUrl>
+    <docsUrl>https://github.com/erichexter/ChocolateyPackages/tree/master/azurestorageemulator/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/erichexter/ChocolateyPackages/issues</bugTrackerUrl>
     <tags>azure storage emulator sdk</tags>
     <!--<copyright></copyright>-->
     <licenseUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</licenseUrl>
