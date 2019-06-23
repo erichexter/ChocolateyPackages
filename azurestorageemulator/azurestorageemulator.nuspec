@@ -4,7 +4,7 @@
   <metadata>
     <id>azurestorageemulator</id>
     <title>azurestorageemulator (Install)</title>
-    <version>5.9</version>
+    <version>5.10</version>
     <authors>Microsoft</authors>
     <owners>erichexter</owners>
     <summary>The Microsoft Azure storage emulator provides a local environment that emulates the Azure Blob, Queue, and Table services for development purposes. </summary>
@@ -16,11 +16,11 @@
     <docsUrl>https://github.com/erichexter/ChocolateyPackages/tree/master/azurestorageemulator/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/erichexter/ChocolateyPackages/issues</bugTrackerUrl>
     <tags>azure storage emulator sdk</tags>
-    <licenseUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</licenseUrl>
+    <licenseUrl>https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
       <dependency id="dotnet4.5" version="4.5.20120822"/>
-      <dependency id="sqlserverlocaldb" version="11.0.2318.0"/>
+      <dependency id="sqllocaldb" version="14.0.1000.169"/>
     </dependencies>
     <releaseNotes>Updated to latest version of AzureStorageEmulator</releaseNotes>
   </metadata>
